@@ -34,11 +34,11 @@ function setUsername() {
 
 // Start of main.js
 myImage.onclick = function() { switchImage() };
-myUser.onclick = function() { setUsername() };
+/*myUser.onclick = function() { setUsername() };
 
 if(!localStorage.getItem('name')) {
     setUsername();
 } else {
     let storedName = localStorage.getItem('name');
     myUser.innerHTML = '<strong>Username:</strong> ' + storedName;
-}
+}*/
